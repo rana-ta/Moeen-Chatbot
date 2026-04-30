@@ -1,3 +1,1 @@
-__pycache__/
-*.pyc
-.env
+web: uvicorn api:app --host 0.0.0.0 --port $PORT
